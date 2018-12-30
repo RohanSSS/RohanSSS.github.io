@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<script type="text/javascript" src="index.js"></script>
+<html>
+
+<head>
+  <title>Founders and Coders Single Page Website</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div>
+    <div class=header>
+      <p>Founders and Coders Application Single Page Website</p>
+    </div>
+    <div>
+      <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'CV')">Who I am</button>
+        <button class="tablinks" onclick="openTab(event, 'Prerequisites')">What I've learned from prerequisites</button>
+        <button class="tablinks" onclick="openTab(event, 'Links')">Links to other things</button>
+      </div>
+
+      <div id="CV" class="tabcontent active">
+      <h3>CV</h3>
+      <script src="CV.js"></script>
+    </div>
+
+    <div id="Prerequisites" class="tabcontent inactive">
+      <h3>Prerequisites</h3>
+      <script src="prerequisites.js"></script>
+    </div>
+
+    <div id="Links" class="tabcontent inactive">
+      <h3>Links</h3>
+      <script src="links.js"></script>
+    </div>
+  </div>
+
+    <div class="footer">
+      <p>add links to fcc, cw, github repo & 2nd challenge</p>
+    </div>
+</div>
+</body>
+
+</html>
