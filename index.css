@@ -26,17 +26,15 @@ p, h3, button {
 
 * {box-sizing: border-box}
 
-/* Style the tab */
 .tab {
   float: left;
   margin-top: 80px;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 10%;
-  height: 300px;
+  height: 100%;
 }
 
-/* Style the buttons that are used to open the tab content */
 .tab button {
   display: block;
   background-color: inherit;
@@ -51,12 +49,10 @@ p, h3, button {
   border-bottom: 1px solid lightgrey;
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
 }
 
-/* Create an active/current "tab button" class */
 .tab button.active {
   background-color: #ccc;
 }
@@ -65,7 +61,6 @@ p, h3, button {
   display: none;
 }
 
-/* Style the tab content */
 .tabcontent {
   float: left;
   margin-top: 80px;
@@ -73,5 +68,10 @@ p, h3, button {
   border: 1px solid #ccc;
   width: 90%;
   border-left: none;
-  height: 300px;
+  padding-bottom: 10px;
+  height: 100%;
+}
+
+.tabPara {
+  margin-right: 20%;
 }
