@@ -1,4 +1,5 @@
-let p2 = "<p class='tabPara'> \
+let p2 =" <h3>What I learned from doing the prerequisites</h3> \
+<p class='tabPara'> \
   Much of the things that I encountered while doing the prerequisites for the application were things that I had encountered before in my own studies of programming languages.  \
   However tha subject that was most enlightening for me was ES6 within javascript on freeCodeCamp. \
   ES6 was something that I had encountered before in passing, but never actually explored. \
