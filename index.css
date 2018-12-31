@@ -1,4 +1,4 @@
-p, h3, button {
+p, h3, button, a {
   font-family: sans-serif;
 }
 
@@ -6,10 +6,16 @@ p, h3, button {
   position:  fixed;
   left: 0;
   bottom: 0;
+  height: 40px;
   width: 100%;
   background-color: black;
   color: white;
   text-align: center;
+}
+
+.footer a {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .header {
