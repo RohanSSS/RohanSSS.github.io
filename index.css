@@ -75,3 +75,7 @@ p, h3, button {
   border-left: none;
   height: 300px;
 }
+
+.tabPara {
+  margin-right: 20%;
+}
